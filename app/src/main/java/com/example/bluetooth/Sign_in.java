@@ -25,7 +25,7 @@ public class Sign_in extends AppCompatActivity {
             public void onClick(View view) {
                 System.out.println(user_id.getText().toString());
                 System.out.println(pass_id.getText().toString());
-                if(user_id.getText().toString().equals("Romaisa") || user_id.getText().toString().equals("Nisha") || user_id.getText().toString().equals("Laiba")  && pass_id.getText().toString().equals("trikill7")) {
+                if(user_id.getText().toString().equals("Romaisa")&& pass_id.getText().toString().equals("trikill7") || user_id.getText().toString().equals("Nisha")&& pass_id.getText().toString().equals("trikill7") || user_id.getText().toString().equals("Laiba")  && pass_id.getText().toString().equals("trikill7")) {
                     Intent i = new Intent(Sign_in.this, SplashScreen.class);
                     i.putExtra("username",user_id.getText());
                     startActivity(i);
