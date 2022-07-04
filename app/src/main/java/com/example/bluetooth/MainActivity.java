@@ -122,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
                     chatUtils.write(message.getBytes());
                     Intent intent = new Intent(context, MainActivity.class);
                     PendingIntent pendingIntent = PendingIntent.getActivity(context, 0, intent, 0);
-
                     NotificationCompat.Builder builder = new NotificationCompat.Builder(context);
                     builder.setSmallIcon(R.drawable.ic_launcher_background);
                     builder.setContentTitle("Test Title");

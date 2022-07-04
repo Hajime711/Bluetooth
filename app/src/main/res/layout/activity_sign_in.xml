@@ -7,16 +7,22 @@
     android:orientation="vertical"
     tools:context=".Sign_in">
 
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/blue" />
+
     <TextView
         android:id="@+id/stud_info"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="30dp"
-        android:layout_marginTop="45dp"
         android:layout_marginEnd="30dp"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:text="Bluetooth Chat Login"
+        android:text="Bluetooth Chat"
         android:textSize="50dp"
         android:fontFamily="monospace"
         android:textColor="#006994"
@@ -55,8 +61,9 @@
         android:layout_marginTop="20dp"
         android:text="Login"
         android:fontFamily="monospace"
-        android:textColor="#006994"
-        android:textSize="20sp"/>
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:background="#009AEE"/>
     />
 
 </LinearLayout>

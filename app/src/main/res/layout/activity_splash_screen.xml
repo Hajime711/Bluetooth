@@ -7,7 +7,8 @@
     android:layout_gravity="center"
     android:gravity="center"
     android:orientation="vertical"
-    tools:context=".SplashScreen">
+    tools:context=".SplashScreen"
+    android:background="@drawable/bluetoothbg">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -21,9 +22,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:fontFamily="serif-monospace"
-            android:text="BlueTooth\n  Chatting"
-            android:textColor="#006994"
+            android:fontFamily="sans-serif-smallcaps"
+            android:text="BlueTooth\n  Chating"
+            android:textColor="#000000"
             android:textSize="50sp"
             tools:layout_editor_absoluteX="166dp"
             tools:layout_editor_absoluteY="325dp" />
@@ -35,24 +36,25 @@
         android:layout_height="wrap_content"
         android:orientation="vertical">
 
+
         <TextView
             android:id="@+id/textView4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="30dp"
-            android:layout_marginTop="10dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="50dp"
             android:text="Group Members:"
             android:textStyle="bold"
-            android:textColor="#87CEEB"
-            android:textSize="30sp" />
+            android:textColor="#1484CD"
+            android:textSize="25sp" />
 
         <TextView
             android:id="@+id/textView5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="120dp"
             android:layout_marginTop="10dp"
             android:text="Romaisa"
             android:textStyle="italic"
@@ -64,7 +66,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="120dp"
             android:layout_marginTop="10dp"
             android:text="Nisha"
             android:textStyle="italic"
@@ -76,11 +78,13 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentBottom="true"
-            android:layout_marginLeft="60dp"
+            android:layout_marginLeft="120dp"
             android:layout_marginTop="10dp"
             android:text="Laiba"
             android:textStyle="italic"
             android:textColor="#000000"
             android:textSize="25sp" />
     </LinearLayout>
+
+
 </LinearLayout>

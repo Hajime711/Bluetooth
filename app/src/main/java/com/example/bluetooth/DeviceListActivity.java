@@ -134,7 +134,7 @@ public class DeviceListActivity extends AppCompatActivity {
     private void scanDevices() {
         progressScanDevices.setVisibility(View.VISIBLE);
         adapterAvailableDevices.clear();
-        Toast.makeText(context, "Scanning for Devices...", Toast.LENGTH_SHORT).show();
+        Toast.makeText(context, "Scanning for Devices...", Toast.LENGTH_LONG).show();
 
         if (bluetoothAdapter.isDiscovering()) {
             bluetoothAdapter.cancelDiscovery();
